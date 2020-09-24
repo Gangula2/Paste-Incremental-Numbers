@@ -4,7 +4,7 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ^1::addAndSwap()		; shortcut for incrementing (CTRL+1)
-;~ ^2::addAndSwap("s")		; shortcut for incrementing and swapping - available in version 2 of script
+;~ ^2::addAndSwap("s")		; shortcut for incrementing and swapping - available in version 2 of script - https://github.com/Gangula2/Paste-Incremental-Numbers/blob/master/Paste%20increment%20-%20v2.ahk
 
 /* Example: If you copy a text like "001. ABC and EFG", you can paste it like follows using Shortcut "CTRL+1":
  * 002. ABC and EFG
